@@ -1,0 +1,21 @@
+﻿<Window x:Class="Arenda_car.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Arenda_car"
+        mc:Ignorable="d"
+        Title="KingAuto" Height="372.214" Width="399.855" FontFamily="Segoe Print" ResizeMode="NoResize">
+    <Grid Margin="0,0,-6,-3" Background="#FFD1BAEC" HorizontalAlignment="Left" Width="400">
+        <Label Content="Логин:" HorizontalAlignment="Left" Height="27" Margin="38,126,0,0" VerticalAlignment="Top" Width="63" HorizontalContentAlignment="Left"/>
+        <TextBox x:Name="loginBox" HorizontalAlignment="Left" Height="32" Margin="106,121,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160"/>
+        <Label Content="Пароль:" HorizontalAlignment="Left" Height="27" Margin="26,158,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="showpassBox" HorizontalAlignment="Left" Height="27" Margin="88,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" Visibility="Hidden"/>
+        <PasswordBox x:Name="passBox" HorizontalAlignment="Left" Height="32" Margin="106,158,0,0" VerticalAlignment="Top" Width="160"/>
+        <CheckBox x:Name="showpass" Content="Просмотр пароля" HorizontalAlignment="Left" Margin="106,204,0,0" VerticalAlignment="Top" Width="160" Click="showpass_Click"/>
+        <Button x:Name="Enter" Content="Вход" HorizontalAlignment="Left" Height="59" Margin="271,126,0,0" VerticalAlignment="Top" Width="81" FontSize="20" Background="#FF9AFF9A" Click="Enter_Click"/>
+        <Button Content="Регистрация" HorizontalAlignment="Left" Height="50" Margin="119,280,0,0" VerticalAlignment="Top" Width="147" FontSize="20" Background="#FF83BFB7" Click="Register_Click"/>
+        <Label Content=" Добро пожаловать в KingAuto" HorizontalAlignment="Left" Height="42" Margin="50,45,0,0" VerticalAlignment="Top" Width="290" FontSize="16" HorizontalContentAlignment="Center"/>
+
+    </Grid>
+</Window>

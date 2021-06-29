@@ -1,0 +1,17 @@
+﻿<Window x:Class="Arenda_car.SuperUser.SuperUserWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Arenda_car.SuperUser"
+        mc:Ignorable="d"
+        Title="Администратор" Height="450" Width="847.66" Background="#FFC8E5F5" FontFamily="Segoe Print" ResizeMode="NoResize">
+    <Grid>
+        <Image Source="/Arenda_car;component/Resources/ilon.jpg" Margin="491,10,-119,175"/>
+        <DataGrid x:Name="carList" HorizontalAlignment="Left" Height="399" VerticalAlignment="Top" Width="456" Margin="10,10,0,0" SelectionChanged="carList_SelectionChanged"/>
+        <Button Content="Редактировать выбранное средство" HorizontalAlignment="Left" VerticalAlignment="Top" Width="361" Margin="471,310,0,0" Height="47" FontSize="18" Click="Button_Click_2"/>
+        <Button Content="Добавить новое средство" HorizontalAlignment="Left" VerticalAlignment="Top" Width="361" Margin="471,362,0,0" Height="47" FontSize="18" Click="Button_Click"/>
+        <Button Content="Обновить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="105" Margin="471,10,0,0" Height="76" FontSize="18" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
